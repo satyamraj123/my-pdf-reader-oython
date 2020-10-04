@@ -3,11 +3,12 @@
 To run this python file,
 
 pip install PyPDF2
-
 pip install gtts 
 
 in your command line
 
 
-Hurray, you are done, just copy your pdf file to same directory and run this file in any IDE !
+Hurray, you are done, just copy your pdf file in the same directory and run my pdf reader.py in any IDE !
+
+
 NOTE- After each run do copy Mp3 files to your safe place, because after every run it deletes the mp3 files.
