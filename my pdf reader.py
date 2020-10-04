@@ -36,7 +36,7 @@ def createSingleMp3(pagenumber):
     page=pdfReader.getPage(pagenumber)        
     text=page.extractText()
     ttmp3=gTTS(text)
-    ttmp3.save("page "+str(pagenumber)+" .mp3")
+    ttmp3.save("page "+str(pagenumber+1)+" .mp3")
 
 def createRangeMp3(startPage,endPage):
     print("loading...................\n")
@@ -66,7 +66,7 @@ choice=int(input())
 
 if(choice==1):
     page=int(input("Enter the page number - "))
-    createSingleMp3(page)
+    createSingleMp3(page-1)
     print("mp3 created, check in directory\n")
 elif(choice==2):
     startPage=0
