@@ -3,7 +3,10 @@
 To run this python file,
 
 pip install PyPDF2
-pip install gtts                    in your command line
+
+pip install gtts 
+
+in your command line
 
 
 Hurray, you are done, just copy your pdf file to same directory and run this file in any IDE !
